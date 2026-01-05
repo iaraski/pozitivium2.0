@@ -43,7 +43,7 @@ function declineAdjective(adj: string, gender: Gender): string {
 const loadData = async () => {
   if (nounsA.length || nounsB.length) return;
 
-  const response = await fetch('/data/data.csv');
+  const response = await fetch('/data.csv');
   const text = await response.text();
 
   const lines = text.split('\n').slice(1);
