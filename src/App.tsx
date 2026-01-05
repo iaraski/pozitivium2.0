@@ -61,7 +61,7 @@ function App() {
 
       <div className='cards-container'>
         <div className='card red'>
-          <MdChat className='icon' color='red' size={48} />
+          <MdFrontHand className='icon' color='green' size={48} />
           <p className='word'>{explain || 'Загрузка...'}</p>
           <button className='button' onClick={() => handleClick('explain')}>
             Сменить слово
@@ -77,7 +77,7 @@ function App() {
         </div>
 
         <div className='card green'>
-          <MdFrontHand className='icon' color='green' size={48} />
+          <MdChat className='icon' color='red' size={48} />
           <p className='word'>{gesture || 'Загрузка...'}</p>
           <button className='button' onClick={() => handleClick('gesture')}>
             Сменить слово
