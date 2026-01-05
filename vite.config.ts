@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/pozitivium2.0',
+  base: '/pozitivium2.0/',
 });
