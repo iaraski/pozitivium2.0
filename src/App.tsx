@@ -80,7 +80,7 @@ function App() {
           <MdChat className='icon' color='red' size={48} />
           <p className='word'>{gesture || 'Загрузка...'}</p>
           <button className='button' onClick={() => handleClick('gesture')}>
-            Сменить слово
+            Сменить словосочетание
           </button>
         </div>
       </div>
