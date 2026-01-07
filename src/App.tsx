@@ -42,7 +42,7 @@ function App() {
     const loaders = {
       explain: getExplainWord,
       draw: getDrawWord,
-      gesture: getGestureWord,
+      gesture: getDrawWord,
     };
 
     map[type]('...');
